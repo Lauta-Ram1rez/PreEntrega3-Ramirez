@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2-ramirez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lauta-Ram1rez/PreEntrega2-Ramirez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lauta-Ram1rez/PreEntrega2-Ramirez/issues"
+  },
+  "homepage": "https://github.com/Lauta-Ram1rez/PreEntrega2-Ramirez#readme"
+}
