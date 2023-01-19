@@ -1,3 +1,11 @@
+.navbar img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+.nav-item a {
+  font-family: "Padyakke Expanded One", cursive;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=style.css.map */
