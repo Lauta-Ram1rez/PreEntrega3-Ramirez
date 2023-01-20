@@ -1,0 +1,99 @@
+.tienda{
+    padding: 30px;
+    h1{
+        font-family: $tipografia-titulo;
+        font-weight: 900;
+    }
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    display: grid;
+    width: 100%;
+    height: 700px;
+    grid-template-columns: auto auto ;
+    grid-template-rows:auto auto;
+    grid-template-areas: 
+    "card1  card2  card3 card4 "
+    "card1  card2  card3 card4 "
+    "card5  card6  card7 card8 "
+    "card5  card6  card7 card8 "
+    ;
+}
+.card-body{
+    h5{
+        font-family: $tipografia-principal-n ;
+        text-align: center;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size:17px ;
+        font-weight: 600;
+        border: solid 1px black;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    p{
+        margin-top: 20px;
+    }
+    a{
+        position: absolute;
+        width: 50px;
+        top: 5px;
+        left: 5px;
+        border-radius: 100px;
+    }
+}
+.card1{
+    grid-area: card1;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}
+.card2{
+    grid-area: card2;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}.card3{
+    grid-area: card3;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}.card4{
+    grid-area: card4;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}.card5{
+    grid-area: card5;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}.card6{
+    grid-area: card6;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}
+.card7{
+    grid-area: card7;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}.card8{
+    grid-area: card8;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}

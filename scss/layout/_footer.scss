@@ -1,0 +1,22 @@
+.pieDePag{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.09567577030812324) 0%, rgba(255,255,255,1) 100%);
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        font-family: $tipografia-principal-n;
+        color: black;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.29em
+        
+    }
+}

@@ -6,7 +6,14 @@
 }
 .nav-item{
     a{
-        font-family: 'Padyakke Expanded One', cursive;
+        font-family: $tipografia-titulo;
         font-weight: 600;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        f
+        button{
+            font-family: $tipografia-titulo;
+            font-size: 20px;
+        }
     }
 }

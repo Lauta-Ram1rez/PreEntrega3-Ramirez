@@ -1,1 +1,9 @@
+@import"./utilities/variables";
+@import "./base/typo.scss";
 @import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-tienda";
+@import "./layout/main-novedades";
+@import "./layout/main-contactos";
+@import "./layout/main-iniciarsesion";
+@import "./layout/footer";
