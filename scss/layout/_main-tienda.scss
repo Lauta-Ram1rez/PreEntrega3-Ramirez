@@ -1,4 +1,4 @@
-.tienda{
+.titulo-u{
     padding: 30px;
     h1{
         font-family: $tipografia-titulo;
@@ -47,53 +47,25 @@
     }
 }
 .card1{
-    grid-area: card1;
-    position: relative;
-    img{
-        border-radius: 20px;
-    }
+    @include grid(card1)
 }
 .card2{
-    grid-area: card2;
-    position: relative;
-    img{
-        border-radius: 20px;
-    }
-}.card3{
-    grid-area: card3;
-    position: relative;
-    img{
-        border-radius: 20px;
-    }
+    @include grid(card2)
+}
+.card3{
+    @include grid(card3)
 }.card4{
-    grid-area: card4;
-    position: relative;
-    img{
-        border-radius: 20px;
-    }
-}.card5{
-    grid-area: card5;
-    position: relative;
-    img{
-        border-radius: 20px;
-    }
-}.card6{
-    grid-area: card6;
-    position: relative;
-    img{
-        border-radius: 20px;
-    }
+    @include grid(card4)
+}
+.card5{
+    @include grid(card5)
+}
+.card6{
+    @include grid(card6)
 }
 .card7{
-    grid-area: card7;
-    position: relative;
-    img{
-        border-radius: 20px;
-    }
-}.card8{
-    grid-area: card8;
-    position: relative;
-    img{
-        border-radius: 20px;
-    }
+    @include grid(card7)
+}
+.card8{
+    @include grid(card8)
 }

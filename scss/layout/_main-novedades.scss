@@ -1,15 +1,12 @@
 .titulonov{
-    padding: 30px;
-    h1{
-        font-family: $tipografia-titulo;
-        font-weight: 900;
-    }
+    @extend .titulo-u
 }
 .cad-nov{
     width: 100%;
     height: 500px;
     display: flex;
     justify-content: space-around;
+    
 }
 .card{
     width: 500px;

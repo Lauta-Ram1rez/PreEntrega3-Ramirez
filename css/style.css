@@ -4,6 +4,12 @@
 @import url("https://fonts.googleapis.com/css2? family= Josefin+Sans:ital,wght@1,600 & display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar img {
   margin-left: 10px;
   margin-right: 10px;
@@ -15,9 +21,9 @@
   color: rgb(0, 0, 0);
   font-size: 15px;
 }
-.nav-item a f button {
+.nav-item a button {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .inicio {
@@ -128,10 +134,10 @@
   color: #fff;
 }
 
-.tienda {
+.titulo-u, .contacto, .titulonov {
   padding: 30px;
 }
-.tienda h1 {
+.titulo-u h1, .contacto h1, .titulonov h1 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 900;
 }
@@ -236,14 +242,6 @@
   border-radius: 20px;
 }
 
-.titulonov {
-  padding: 30px;
-}
-.titulonov h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 900;
-}
-
 .cad-nov {
   width: 100%;
   height: 500px;
@@ -282,14 +280,6 @@
 .formulario1 {
   width: 100%;
   height: 800px;
-}
-
-.contacto {
-  padding: 30px;
-}
-.contacto h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 900;
 }
 
 .cont1 {
@@ -363,9 +353,9 @@
 }
 
 .tex {
+  resize: none;
   width: 85%;
   height: 60%;
-  resize: none;
   border-radius: 20px;
   background-color: hsla(0deg, 0%, 0%, 0.178);
 }
@@ -556,9 +546,11 @@
   height: 200px;
 }
 .ini-syt h2 {
-  padding: 30px;
+  padding: 25px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 900;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
 }
 .ini-syt p {
   text-align: center;

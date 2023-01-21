@@ -3,11 +3,7 @@
     height: 800px;
 }
 .contacto{
-    padding: 30px;
-    h1{
-        font-family: $tipografia-titulo;
-        font-weight: 900;
-    }
+    @extend .titulo-u
 }
 .cont1{
     width: 100%;
@@ -21,17 +17,12 @@
     font-family: $tipografia-sub-p;
     font-weight: 450;
     }
-}.nombre {
-    width: 35%;
-    height: 45%;
-    border-radius: 15px;
-    background-color: hsla(0, 0%, 0%, 0.178);
+}
+.nombre {
+    @include cont(35%,45%,15px)
 }
 .apellido {
-    width: 35%;
-    height: 45%;
-    border-radius: 15px;
-    background-color: hsla(0, 0%, 0%, 0.178);
+    @include cont(35%,45%,15px)
 }
 .cont2{
     width: 100%;
@@ -47,17 +38,11 @@
     }
 }
 .correo {
-    width: 35%;
-    height: 45%;
-    border-radius: 15px;
-    background-color: hsla(0, 0%, 0%, 0.178);
+    @include cont(35%,45%,15px)
 
 }
 .tel {
-    width: 35%;
-    height: 45%;
-    border-radius: 15px;
-    background-color: hsla(0, 0%, 0%, 0.178);
+    @include cont(35%,45%,15px)
 }
 
 .cont3{
@@ -71,15 +56,11 @@
         font-family: $tipografia-sub-p;
         font-weight: 450;
         text-align: center;
-
     }
 }
 .tex {
-    width: 85%;
-    height: 60%;
     resize: none;
-    border-radius: 20px ;
-    background-color: hsla(0, 0%, 0%, 0.178);
+    @include cont(85%,60%,20px)
 }
 
 .bt{

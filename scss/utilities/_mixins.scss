@@ -1,0 +1,26 @@
+@mixin grid ($area){
+    grid-area: $area;
+    position: relative;
+    img{
+        border-radius: 20px;
+    }
+}
+@mixin cont($uno, $dos, $tres){
+    width: $uno;
+    height: $dos;
+    border-radius: $tres ;
+    background-color: hsla(0, 0%, 0%, 0.178);
+}
+@mixin cont-u($w,$h,$j,$a){
+    width: $w;
+    height: $h;
+    display: flex;
+    justify-content: $j;
+    align-items: $a;
+    textarea{
+        font-size: 20px;
+        font-family: $tipografia-sub-p;
+        font-weight: 450;
+        text-align: center;
+    }
+}
