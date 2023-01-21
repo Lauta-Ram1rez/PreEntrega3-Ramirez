@@ -1,5 +1,5 @@
 .pieDePag{
-    height: 35px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,15 +8,16 @@
 }
 .redes{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
     a{
         text-decoration: none;
         font-family: $tipografia-principal-n;
         color: black;
         font-weight: 600;
-        font-size: 18px;
-        letter-spacing: 0.29em
-        
+        font-size: 20px;
+        letter-spacing: 0.5em
     }
 }
